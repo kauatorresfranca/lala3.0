@@ -10,22 +10,6 @@
     margin: 0 auto;
     max-width: 1024px;
     width: 100%;
-
-.pai-senha{
-    position: fixed;
-    display: none;
-    margin: 10%;
-    justify-content: center;
-    background-color: rgb(208, 117, 212);
-    padding: 50px 78px;
-    border-radius: 8px;
-    z-index: 1;
-}}
-
-.senha{
-    display: block;
-    color: #fff;
-
 }
 
 header{
@@ -55,9 +39,15 @@ header>.container h1{
 }
 
 #regras>.container{
+    color: rgb(96, 6, 104);
     .mb{
         margin-bottom: 16px;
     }
+
+    ul{
+        margin-left: 22px;
+    }
+    
 }
 
 #dicas{
@@ -100,6 +90,7 @@ input{
     height: 45px;
     width: 320px;
     padding: 8px;
+    border-radius: 8px;
 }
 button{
     width: 320px;
@@ -124,6 +115,7 @@ button{
     color: rgba(96, 6, 104, 0.8);
     font-weight: bold;
     display: none;
+    margin-top: 8px;
 }
 
 #hero{
@@ -139,7 +131,7 @@ button{
 
 .hero__content{
     background-color: rgba(255, 255, 255, 0.5);
-    padding: 270px 0;
+    padding: 271px 0;
     color: #fff;
 }
 
@@ -149,7 +141,7 @@ button{
 
 footer{
     padding: 32px;
-    background-color: rgb(208, 117, 212);
+    background-color: rgb(96, 6, 104);
     display: flex;
     justify-content: space-between;
     margin-top: 48px;

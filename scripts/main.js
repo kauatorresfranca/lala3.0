@@ -23,8 +23,16 @@ $(document).ready(function(){
         $('#tudo').css('display', 'block');
         $('#input').val('')
     }
+    else if (valor_input === 'maturidade'){
+        $('#maturidade').css('display', 'block');
+        $('#input').val('')
+    }
+    else if (valor_input === 'eu te amo'){
+        $('#te-amo').css('display', 'block');
+        $('#input').val('')
+    }
     else{
-        alert('aff lala. você errou, mas n desista')
+        alert('aff lala. você errou, mas não desista')
         $('#input').val('')
     }
     })
