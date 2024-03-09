@@ -54,16 +54,9 @@ header>.container h1{
     text-align: center;
 }
 
-.links__list__item{
-    display: inline;
-    padding: 14px;
-    margin: 0 6px;
-    border-radius: 10px;
-    cursor: pointer;
-    
-    a{
-        text-decoration: none;
-        color: #fff;
+#regras>.container{
+    .mb{
+        margin-bottom: 16px;
     }
 }
 
@@ -116,6 +109,8 @@ button{
     cursor: pointer;
     display: block;
     font-weight: bold;
+    border-radius: 8px;
+    color: #000;
 }
 
 .input-pai, .button-pai{
@@ -129,4 +124,34 @@ button{
     color: rgba(96, 6, 104, 0.8);
     font-weight: bold;
     display: none;
+}
+
+#hero{
+    background-image: url(images/img1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 600px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.hero__content{
+    background-color: rgba(255, 255, 255, 0.5);
+    padding: 270px 0;
+    color: #fff;
+}
+
+.text-diferent{
+    color: rgba(96, 6, 104, 0.8);
+}
+
+footer{
+    padding: 32px;
+    background-color: rgb(208, 117, 212);
+    display: flex;
+    justify-content: space-between;
+    margin-top: 48px;
+    align-items: center;
 }
