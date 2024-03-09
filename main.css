@@ -157,11 +157,10 @@ footer{
             margin-bottom: 8px;
             font-weight: bold;
         }
-
-        list-style: none;
-        text-align: center;
         li{
             margin-bottom: 8px;
+            list-style: none;
+            text-align: center;
         }
         li a{
             text-decoration: none;
