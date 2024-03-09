@@ -15,8 +15,8 @@ $(document).ready(function(){
     if (valor_input === 'praia'){
         $('#praia').css('display', 'block');
     }
-    if (valor_input === 'saudade'){
-        $('#saudade').css('display', 'block');
+    if (valor_input === 'tudo'){
+        $('#tudo').css('display', 'block');
     }
     })
 })
