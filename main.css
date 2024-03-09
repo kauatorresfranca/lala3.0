@@ -45,7 +45,7 @@ header>.container h1{
     }
 
     ul{
-        margin-left: 22px;
+        margin-left: 42px;
     }
     
 }
@@ -80,7 +80,7 @@ header>.container h1{
 
 #achar-palavra>.container h2{
     text-align: center;
-    color: #dbff0f;
+    color: #d3e90f;
     margin-bottom: 24px;
 }
 
@@ -146,4 +146,27 @@ footer{
     justify-content: space-between;
     margin-top: 48px;
     align-items: center;
+
+    p{
+        text-align: center;
+        color: #fff;
+    }
+
+    ul{
+        h2{
+            margin-bottom: 8px;
+            font-weight: bold;
+        }
+
+        list-style: none;
+        text-align: center;
+        li{
+            margin-bottom: 8px;
+        }
+        li a{
+            text-decoration: none;
+            color: #d3e90f;
+            font-weight: bold;
+        }
+    }
 }

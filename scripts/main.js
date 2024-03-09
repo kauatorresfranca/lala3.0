@@ -36,4 +36,7 @@ $(document).ready(function(){
         $('#input').val('')
     }
     })
+    $('.em-breve').click(function(){
+        alert("hmmm, um dia esse link ainda vai funcionar, aguarde !!! hehehee")
+    })
 })
